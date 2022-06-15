@@ -1,0 +1,142 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(48, 63, 94);
+    margin: 0;
+}
+
+body {
+    background-color: rgb(48, 63, 94);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.header {
+    position: relative;
+    padding: 40px 0;
+    background-color: rgb(148, 163, 194);
+}
+
+.nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.nav ul {
+    margin: 0 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 60px;
+    border-radius: 5px;
+    border:2px solid rgb(48, 63, 94);
+    margin: 5px ;
+    padding: 5px 15px;
+    background-color: rgb(48, 63, 94);
+}
+
+.nav ul li a {
+    display: inline-block;
+    color: aliceblue;
+}
+
+.nav ul li:hover {
+    transform: scale(1.1, 1.1);
+    background-color: rgb(148, 163, 194);
+}
+
+.nav ul li:active {
+    transform: scale(1.0, 1.0);
+    box-shadow: 0 0 0 1px rgb(48, 63, 94) inset;
+}
+
+.main {
+    width: 90%;
+}
+
+.section-profile {
+    height: 180px;
+    padding: 10px 20px;
+    border-bottom: 10px solid rgb(148, 163, 194);
+}
+
+.section-profile img {
+    display: block;
+    border-radius: 50%;
+    float: left;
+    margin-left: 100px;
+}
+
+.section-profile div {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.section {
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    vertical-align: top;
+    margin: 5px 10px;
+    border-bottom: 2px solid rgb(148, 163, 194);
+}
+
+.section span{
+    font-weight: bold;
+}
+
+.quote {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.footer {
+    background-color: rgb(148, 163, 194);
+    margin-top: -10px;
+}
+.footer ul {
+    padding: 0;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.footer ul li a {
+    display: inline-block;
+}
+
+.footer img {
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: rgb(148, 163, 194);
+    cursor: pointer;
+}
