@@ -1,5 +1,5 @@
 # CV of Maspanov Alexandr
-![My Photo](./img/my-photo.jpg) "My photo"
+![My Photo](./img/my-photo.jpg)
 ## Junior Frontend Developer
 + Hi, I’m **@AlexandrMaspanov**
 + I’m interested in **_Frontend development_**
